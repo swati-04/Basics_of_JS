@@ -13,8 +13,11 @@
         brand: "hp",
         cost: 50000,
         material: "plastic",
-      };
-      console.log(tv.brand);
+        fullname: function(){
+            return this.brand + " oled " + this.size;
+        }
+      }; //syntax to create objects;
+      console.log(tv.fullname()); // to pull one property of object
     </script>
   </body>
 </html>
