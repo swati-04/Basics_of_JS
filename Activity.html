@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Active-check</title>
+  </head>
+  <body>
+    <script>
+      const jobs = [
+        { id: 1, isActive: true },
+        { id: 2, isActive: false },
+        { id: 3, isActive: true },
+        { id: 4, isActive: true },
+      ]; //this is the syntax to create an array of objects
+      
+      const activeJobs = jobs.filter((jobs) => jobs.isActive);
+      console.log(activeJobs);
+    </script>
+  </body>
+  >
+</html>
